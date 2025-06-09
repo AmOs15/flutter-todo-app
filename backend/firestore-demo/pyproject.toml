@@ -1,0 +1,20 @@
+[project]
+name = "firestore-demo"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "AmOs15",email = "amos.game1615@gmail.com"}
+]
+readme = "README.md"
+requires-python = "3.12.2"
+dependencies = [
+    "flask (>=3.1.1,<4.0.0)",
+    "functions-framework (>=3.8.3,<4.0.0)",
+    "firebase-admin (>=6.9.0,<7.0.0)",
+    "google-cloud-firestore (>=2.21.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
