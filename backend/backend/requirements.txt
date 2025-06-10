@@ -1,0 +1,4 @@
+Flask
+pydantic
+pytest
+google-cloud-firestore
