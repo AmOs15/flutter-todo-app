@@ -44,7 +44,13 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# genereted files
+# generated files
+*.g.dart
+*.freezed.dart
+*.gr.dart
+*.config.dart
+/lib/generated/
+/test/generated/
 linux/flutter/generated_plugin_registrant.cc
 linux/flutter/generated_plugin_registrant.cc
 linux/flutter/generated_plugin_registrant.h
